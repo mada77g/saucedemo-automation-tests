@@ -74,9 +74,13 @@ The test validates the full navigation loop by ensuring the **Back Home** button
    ```bash
    npx cypress open
 
-3. To run the tests in headless mode (CLI):
+2. To run the tests in headless mode (CLI):
    ```bash
    npx cypress run
+
+3. To run only the specific E2E test:
+   ```bash
+   npx cypress run --spec cypress/e2e/OrderPlacementE2e.cy.js
 
 -----------------------------------------------------------------
 👨‍💻 Created by a QA Engineer with 4.6 years of experience, focusing on clean code and the KISS principle.
