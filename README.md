@@ -14,6 +14,21 @@ This project contains an automated E2E (End-to-End) regression test suite for th
 * `cypress/support/pages/`: Contains the Page Object classes for each section of the application, ensuring modularity and easy maintenance.
 * `cypress.config.js`: Main framework configuration file.
 
+## 🧠 Key Engineering Decisions
+
+### **Single Responsibility Principle (SRP)**
+Each Page Object class handles only one page or component, ensuring modularity, maintainability, and easier debugging.
+
+### **Data Object Pattern**
+A single JavaScript object is used for Checkout Overview validation to avoid the “Long Parameter List” anti-pattern and to improve readability and scalability.
+
+### **Wrapper Methods**
+High-level reusable methods (e.g., `userLogin`, `checkoutOverview`) abstract repetitive steps, keeping the test file (`.cy.js`) clean, readable, and accessible even for non-technical stakeholders.
+
+### **Circular Navigation Validation**
+The test validates the full navigation loop by ensuring the **Back Home** button correctly returns the user to the Products page after completing an order.
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
