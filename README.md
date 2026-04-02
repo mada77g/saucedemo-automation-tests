@@ -22,4 +22,21 @@ This project contains an automated E2E (End-to-End) regression test suite for th
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/mada77g/saucedemo-automation-tests.git](https://github.com/mada77g/saucedemo-automation-tests.git)
+   git clone https://github.com/mada77g/saucedemo-automation-tests.git
+   
+2.Navigate to the project folder and install the necessary dependencies:
+```bash
+npm install
+```
+
+### ▶️ Test Execution
+1. To run the tests in interactive mode (GUI):
+   ```bash
+   npx cypress open
+
+3. To run the tests in headless mode (CLI):
+   ```bash
+   npx cypress run
+
+-----------------------------------------------------------------
+👨‍💻 Created by a QA Engineer with 4.6 years of experience, focusing on clean code and the KISS principle.
