@@ -3,7 +3,7 @@ import productsPage from "../support/pages/productsPage.js";
 import cartPage from "../support/pages/cartPage.js";
 import checkoutInformationPage from "../support/pages/checkoutInformationPage.js";
 import checkoutOverviewPage from "../support/pages/checkoutOverviewPage.js";
-import checkoutCompletePage from "../support/pages/CheckoutCompletePage.js";
+import checkoutCompletePage from "../support/pages/checkoutCompletePage.js";
 
 
 // ORDER PLACEMENT E2E 
