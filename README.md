@@ -7,6 +7,7 @@ This project contains an automated E2E (End-to-End) regression test suite for th
 * **Framework:** Cypress
 * **Language:** JavaScript
 * **Pattern:** Page Object Model (POM)
+* **Principles:** KISS (Keep It Simple, Stupid) & DRY (Don't Repeat Yourself) & SRP (Single Responsibility Principle)
 
 ## 📂 Project Structure
 * `cypress/e2e/`: Contains the functional test scenario `OrderPlacementE2e.cy.js`.
@@ -24,10 +25,10 @@ This project contains an automated E2E (End-to-End) regression test suite for th
    ```bash
    git clone https://github.com/mada77g/saucedemo-automation-tests.git
    
-2.Navigate to the project folder and install the necessary dependencies:
-```bash
-npm install
-```
+2. Navigate to the project folder and install the necessary dependencies:
+   ```bash
+   npm install
+   ```
 
 ### ▶️ Test Execution
 1. To run the tests in interactive mode (GUI):
