@@ -1,0 +1,16 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "RCV Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madalin G",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-wait-until": "^3.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
