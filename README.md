@@ -16,26 +16,26 @@ This project contains an automated E2E (End-to-End) regression test suite for th
 
 ## ✅ Test Coverage (E2E Flow)
 
-### **Authentication**
-Login using valid standard user credentials to ensure access control works as expected.
+1. **Authentication**  
+   Login using valid standard user credentials to ensure access control works as expected.
 
-### **Inventory Validation**
-Verifying that all 6 products are displayed correctly on the Products page.
+2. **Inventory Validation**  
+   Verifying that all 6 products are displayed correctly on the Products page.
 
-### **Product Management**
-Adding a specific item to the cart and validating the cart badge counter updates accordingly.
+3. **Product Management**  
+   Adding a specific item to the cart and validating that the cart badge counter updates accordingly.
 
-### **Cart Integrity**
-Checking product name, quantity, and price consistency before proceeding to checkout.
+4. **Cart Integrity**  
+   Checking product name, quantity, and price consistency before proceeding to checkout.
 
-### **Checkout Journey**
-Entering shipping details and validating the multi-step checkout form navigation.
+5. **Checkout Journey**  
+   Entering shipping details and validating the multi-step checkout form navigation.
 
-### **Financial Precision**
-Validating Subtotal, Tax, and Grand Total using Data Objects for accuracy and maintainability.
+6. **Financial Precision**  
+   Validating Subtotal, Tax, and Grand Total using Data Objects for accuracy and maintainability.
 
-### **Order Finalization**
-Confirming the final “Thank you” message and validating circular navigation back to the Products page via the **Back Home** button.
+7. **Order Finalization**  
+   Confirming the final “Thank you” message and validating circular navigation back to the Products page via the **Back Home** button.
 
 
 ## 🧠 Key Engineering Decisions
