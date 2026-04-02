@@ -31,8 +31,8 @@ This project contains an automated E2E (End-to-End) regression test suite for th
 5. **Checkout Journey**  
    Entering shipping details and validating the multi-step checkout form navigation.
 
-6. **Financial Precision**  
-   Validating Subtotal, Tax, and Grand Total using Data Objects for accuracy and maintainability.
+6. **Financial and Product Precision**  
+   Verifying the consistency of product details (name, quantity, price) alongside the calculated Subtotal, Tax, and Grand Total using a dedicated JavaScript Data Object for accuracy and maintainability.
 
 7. **Order Finalization**  
    Confirming the final “Thank you” message and validating circular navigation back to the Products page via the **Back Home** button.
