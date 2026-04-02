@@ -1,7 +1,6 @@
 class CheckoutOverviewPage { 
 
     // [LOCATORS]
-
     get pageTitle()         { return cy.get('[data-test="title"]'); }
 
     get itemName()          { return cy.get('[data-test="inventory-item-name"]'); }
