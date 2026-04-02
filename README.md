@@ -14,6 +14,30 @@ This project contains an automated E2E (End-to-End) regression test suite for th
 * `cypress/support/pages/`: Contains the Page Object classes for each section of the application, ensuring modularity and easy maintenance.
 * `cypress.config.js`: Main framework configuration file.
 
+## ✅ Test Coverage (E2E Flow)
+
+### **Authentication**
+Login using valid standard user credentials to ensure access control works as expected.
+
+### **Inventory Validation**
+Verifying that all 6 products are displayed correctly on the Products page.
+
+### **Product Management**
+Adding a specific item to the cart and validating the cart badge counter updates accordingly.
+
+### **Cart Integrity**
+Checking product name, quantity, and price consistency before proceeding to checkout.
+
+### **Checkout Journey**
+Entering shipping details and validating the multi-step checkout form navigation.
+
+### **Financial Precision**
+Validating Subtotal, Tax, and Grand Total using Data Objects for accuracy and maintainability.
+
+### **Order Finalization**
+Confirming the final “Thank you” message and validating circular navigation back to the Products page via the **Back Home** button.
+
+
 ## 🧠 Key Engineering Decisions
 
 ### **Single Responsibility Principle (SRP)**
